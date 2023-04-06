@@ -18,7 +18,7 @@ namespace TrianguloOO
             {
                 return triangulo = "Triangulo Equilatero";
             }
-            if (x != y && y != z && x != z)
+            else if (x != y && y != z && x != z)
             {
                 return triangulo = "Triangulo Escaleno";
             }
