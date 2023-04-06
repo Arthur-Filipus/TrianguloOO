@@ -6,10 +6,6 @@
         {
             CalculoTriangulo teste = new CalculoTriangulo();
 
-
-
-
-
             Console.Write("Digite o valor de X: ");
 
             teste.x = Convert.ToInt32(Console.ReadLine());

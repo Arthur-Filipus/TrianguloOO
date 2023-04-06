@@ -22,9 +22,13 @@ namespace TrianguloOO
             {
                 return triangulo = "Triangulo Escaleno";
             }
-            else
+            else if (x != y && x != z && y == z || x != y && y != z && x == z || x == y && x != z && y != z)
             {
                 return triangulo = "Triangulo Isoceles";
+            }
+            else
+            {
+                return triangulo = "Triangulo Inválido";
             }
         }
     }
